@@ -1,0 +1,222 @@
+/* style.css */
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefcfc;
+    color: #333;
+}
+
+header {
+    background-color: #0c0c0c;
+    background: linear-gradient(to right, #0a0a0a, #8b0000);
+    color: #fff;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
+header p{
+    margin-bottom: 2px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.icon {
+    display: flex;
+    justify-content: last baseline;
+    margin: 0 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 1rem;
+}
+.icon #carro{
+    font-size: 60px;
+   
+}
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-bottom: 15px;
+}
+
+header i {
+    color: #fff;
+    justify-content: end;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+}
+.products h4{
+    height: 50px;
+}
+
+.product {
+    border: 1px solid #000000d5;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.product h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.buy-button {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #005fa3;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.fundo {
+    background-color: #000000d5;
+}
+
+.fundo h4 {
+
+    background-color: #8b0000;
+    color: #fff;
+    width: 100vh;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    text-wrap: none;
+}
+
+h4 {
+    margin-top: 20px;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    height: 800px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+h5 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+/* A partir daqui codigo css do bombojaco.html */
+
+header .home-bombojaco {
+    width: 100vw;
+    height: 20vh;
+}
+
+section .container1 {
+    width: 97;
+    height: 70vh;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0%;
+}
+.box{
+    display: flex;
+    align-items: start;
+    gap: 60px; 
+    padding: 10px;
+    max-width: 2000px;
+    width: 97%;
+}
+
+.box img{
+    
+    height: 100%;
+    object-fit: cover;
+   
+}
+.box h2{
+    width: 50%;
+    justify-content: left;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+    
+.footer {
+    width: 97.9%;
+    height: 10vh;
+    margin: 0%;
+}
